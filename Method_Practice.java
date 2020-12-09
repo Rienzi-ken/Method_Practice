@@ -33,7 +33,9 @@ public class Method_Practice
       
          while (playAgain.equals("yes") || playAgain.equals("Yes"))
       {
-          System.out.println("Do I like cake? Please answer either (1) for \"yes\",(2) for \"no\",or (3) for \"iDontCare\".");
+          System.out.println("Hey, I have a question for you to answer.");
+          System.out.println("Do I like cake? What do you think?");
+          System.out.println("Please answer either (1) for \"yes\",(2) for \"no\",or (3) for \"iDontCare\".");
           decision = inputScanner.nextInt();
           if (decision == 1)
           {
